@@ -21,7 +21,6 @@ public class GameButtons : MonoBehaviour
         B_RestartButton = gameObject.GetComponent<Button>();
         B_ToMainButton = G_ToMainButton.GetComponent<Button>();
         T_ToMainText = G_ToMainText.GetComponent<Text>();
-        print("test awake");
     }
     private void Start()
     {

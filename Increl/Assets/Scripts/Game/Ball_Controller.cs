@@ -7,7 +7,7 @@ using UnityEngine.UI;
 using UnityEngine.Advertisements;
 public class Ball_Controller : MonoBehaviour
 {
-    #region value
+    #region values
     public static int I_AdShow = 0;
     private bool B_SpawnEffect = false; //First circle will spawn slowly then another
     public static bool B_Lose; //To know when player lose
@@ -59,7 +59,6 @@ public class Ball_Controller : MonoBehaviour
         B_Lose = true;
         I_level = 1;
         LevelText.ChangeLevelText();
-        print(I_level);
         F_Speed = 0;
         F_SpeedValue = 0.00005f;
         B_IsScale = false;
